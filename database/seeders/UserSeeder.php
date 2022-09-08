@@ -29,7 +29,7 @@ class UserSeeder extends Seeder
             ],
         ];
 
-        foreach($datas as $key => $value){
+        foreach ($datas as $key => $value) {
             User::create($value);
         }
     }
